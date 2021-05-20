@@ -1,10 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
+import DetailsForm from "./Components/DetailsForm"
+
 
 function App() {
   return (
     <div className="App">
-      <p>test the pull request</p>
+      <DetailsForm />
     </div>
   );
 }
